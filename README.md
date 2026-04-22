@@ -36,24 +36,27 @@ The pipeline was evaluated against ground-truth clinical annotations by medical 
 | **chb24** | 9.00 | 100.00% | 98.83% | 98.83% | 95.45% | 21.00 | 100.00% | 99.37% | 99.37% | 95.79% | 22.78 |
 
 ![Seizure Detection Plot](images/seizure_plot_chb07.png)
+
 ## 🚀 How to Run Locally
 
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/madhavg07/EEG-Seizure-Detection-Pipeline.git](https://github.com/madhavg07/EEG-Seizure-Detection-Pipeline.git)
 cd EEG-Seizure-Detection-Pipeline
+```
 
 **2. Install dependencies:**
 ```bash
 pip install -r requirements.txt
+```
 
 **3. Add the Dataset:**
-Download the CHB-MIT database from PhysioNet and place the .edf files into the data/ directory.
+Download the CHB-MIT database from [PhysioNet](https://physionet.org/content/chbmit/) and place the `.edf` files into the `data/` directory.
 
 **4. Execute the pipeline:**
-
 ```bash
 python main.py
+```
 *(Make sure to change `YOUR_USERNAME` in the clone link to your actual GitHub username!)*
 
 Once you commit and push these files alongside your `main.py`, your repository will instantly look lik
