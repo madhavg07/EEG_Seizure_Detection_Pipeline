@@ -1,0 +1,7 @@
+Due to GitHub's file size limitations, the CHB-MIT Scalp EEG Database files are not hosted in this repository.
+
+INSTRUCTIONS TO RUN THE PIPELINE:
+1. Download the clinical pediatric EEG dataset from PhysioNet: https://physionet.org/content/chbmit/
+2. Extract the patient data.
+3. Place the target `.edf` (raw brainwave) and `.seizure` (annotation) files directly into this /data directory.
+4. Run main.py from the root directory.

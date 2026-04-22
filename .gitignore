@@ -1,0 +1,19 @@
+# Ignore CHB-MIT Dataset files (Too large for GitHub)
+*.edf
+*.seizure
+data/*.edf
+data/*.seizure
+
+# Python Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments (if someone creates one)
+venv/
+env/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
